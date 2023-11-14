@@ -6,8 +6,9 @@ const Nav = () => {
     <>
       <nav className="nav">
         <Link to="/">SpendWise</Link>
-        <button>New Transaction</button>
-        <h1></h1>
+        <button>
+          <Link to="transactions/new">New Transaction</Link>
+        </button>
       </nav>
     </>
   );
