@@ -1,10 +1,10 @@
-// import Transactions from "../Transactions"
+import Transactions from "../Transactions"
 
 const Index = () => {
   return (
     <div className="index">
       <h2>Index</h2>
-      {/* <Transactions/> */}
+      <Transactions/>
     </div>
   );
 };
